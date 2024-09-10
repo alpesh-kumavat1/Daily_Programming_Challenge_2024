@@ -2,40 +2,7 @@
 #include<vector>
 using namespace std;
 
-// void Find_Misssing_Num(vector<int>nums , int &ans){
-//     for(int i=1; i<nums.size(); i++){
-//         if(nums[i-1] != i){
-//             ans = i;
-//             break;
-//         }
-//     }
-// }
-// // int Find_Misssing_Num2(vector<int>nums , int &ans){
-// //     int first = nums[0] + 1;
-// //     int i = 1;
-// //     while(i<=nums.size()){
-// //         if(first != nums[i]){
-// //             ans = first;
-// //             break;
-// //         }
-// //         else{
-// //             first = nums[i++]+1;
-// //         }   
-// //     }
-// // }
-// // int Find_Misssing_Num2(vector<int>nums , int &ans){
-// //     int first = 1;
-// //     int i = 0;
-// //     while(i<nums.size()){
-// //         if(first != nums[i]){
-// //             ans = first;
-// //             break;
-// //         }
-// //         else{
-// //             first += nums[++i];
-// //         }   
-// //     }
-// // }
+
 
 int Find_Misssing_Num2(vector<int>nums){
     int first = 1;
